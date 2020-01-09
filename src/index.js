@@ -10,8 +10,11 @@ const App = () => {
         <>
             <Container fluid={true} className="no-padding">
                 <Row>
-                    <Col className="no-padding">
+                    <Col lg="8">
                         <Banner />
+                    </Col>
+                    <Col lg="4">
+                        lorem ipsum...
                     </Col>
                 </Row>
             </Container>
