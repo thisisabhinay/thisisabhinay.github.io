@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Container, Row, Col } from "reactstrap";
 import Banner from '../src/components/Banner';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../src/index.css';
+import '../src/custom.css';
 
 const App = () => {
     return(
