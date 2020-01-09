@@ -1,11 +1,16 @@
 import React from 'react';
-import Label from '../components/Label'
 
-const Banner = ({imageUrl}) => {
+const Banner = () => {
     return(
-        <div className="banner banner--dark">
-            <img className="banner__media" src={imageUrl} />
-            <Label text={"Website is under construction"} />
+        <div className="banner d-flex align-items-end justify-content-center">
+            <div className="heading">
+                <h5 className="text-shadow font-weight-bold text-white text-center text-uppercase">
+                    Abhinay Thakur
+                </h5>
+                <p className="text-shadow font-weight-bold text-white text-center ">
+                    Product Designer | Frontend Engineer
+                </p>
+            </div>
         </div>
     );
 };

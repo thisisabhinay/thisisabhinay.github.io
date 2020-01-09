@@ -1,21 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Banner from './components/Banner';
-import Header from './components/Header';
-import Intro from './components/Intro';
-import './index.css';
+import { Container, Row, Col } from "reactstrap";
+import Banner from '../src/components/Banner';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../src/index.css';
 
 const App = () => {
     return(
-        <div className="wrapper">
-            <Header 
-                logo={'/logo.png'} 
-                heading="Abhinay Thakur" 
-                subheading="UX/UI Designer &amp; Frontend Engineer"
-            />
-            <Intro />
-            <Banner imageUrl={'/gif_construction.gif'} />
-        </div>
+        <>
+            <Container fluid={true} className="no-padding">
+                <Row>
+                    <Col className="no-padding">
+                        <Banner />
+                    </Col>
+                </Row>
+            </Container>
+        </>
     );
 };
 
