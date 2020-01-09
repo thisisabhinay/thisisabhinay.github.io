@@ -8,12 +8,12 @@ const Banner = () => {
             <Col className="banner d-flex align-items-end justify-content-center align-self-start mh-100">
                 <Row className="banner__content d-lg-none align-items-end">
                     <Col xs="12" >
-                        <h5 className="text-shadow font-weight-bold text-white text-center text-uppercase">
+                        <h5 className="text-uppercase font-weight-bold">
                             Abhinay Thakur
                         </h5>
                     </Col>
                     <Col xs="12">
-                        <p className="text-shadow font-weight-bold text-white text-center ">
+                        <p>
                             Product Designer // Frontend Engineer
                         </p>
                     </Col>
