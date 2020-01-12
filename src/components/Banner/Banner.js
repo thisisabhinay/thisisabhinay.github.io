@@ -14,7 +14,7 @@ const Banner = () => {
                     </Col>
                     <Col xs="12">
                         <p>
-                            Product Designer // Frontend Engineer
+                            Product Designer and Frontend Engineer in India
                         </p>
                     </Col>
                 </Row>
