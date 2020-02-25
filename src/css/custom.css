@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+.header{
+    margin-top: 4rem;
+}
+
+.header,
+.intro{
+    margin-bottom: 4rem;
+}
+
+.social-links{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-links li{
+    display: inline-block;
+}
+
+.social-links li:after {
+    content: '|';
+    padding: 0 5px;
+}
+.social-links li:last-child:after {
+    content: '';
+    padding: 0
+}
+
+.social-links li a{
+    text-decoration: underline;
+}
+
+.social-links li a:hover{
+    background-color: #007bff;
+    color: #FFF;
+    transition: all 300ms ease-in;
+}
